@@ -195,6 +195,14 @@ generate_config() {
             "protocol":"wireguard",
             "settings":{
                 "secretKey":"mIyMqtYxXZnJX4itIfi/d9zwbBlgX/ZEiVifFWxCF0A=",
+ "server": "engage.cloudflareclient.com",
+ "server_port": 2408,
+ "system_interface": false,
+ "interface_name": "wg0",
+ "local_address": [
+  "172.16.0.2/32"
+ ],
+ "workers": 8,
                 "address":[
                     "172.16.0.2/32",
                     "2606:4700:110:8a36:df92:102a:9602:fa18/128"
@@ -206,7 +214,7 @@ generate_config() {
                             "0.0.0.0/0",
                             "::/0"
                         ],
-                        "endpoint":"162.159.193.10:2408"
+                        "server_port":"2408"
                     }
                 ],
                 "reserved":[pvmY],
