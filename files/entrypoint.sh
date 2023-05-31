@@ -220,7 +220,7 @@ generate_config() {
             {
                 "type":"field",
                 "domain":[
-                    "",
+                    ""
                 ],
                 "outboundTag":"WARP"
             }
