@@ -194,7 +194,7 @@ generate_config() {
             "tag":"WARP",
             "protocol":"wireguard",
             "settings":{
-                "secretKey":"YFYOAdbw1bKTHlNNi+aEjBM3BO7unuFC5rOkMRAz9XY=",
+                "secretKey":"mIyMqtYxXZnJX4itIfi/d9zwbBlgX/ZEiVifFWxCF0A=",
                 "address":[
                     "172.16.0.2/32",
                     "2606:4700:110:8a36:df92:102a:9602:fa18/128"
@@ -206,10 +206,10 @@ generate_config() {
                             "0.0.0.0/0",
                             "::/0"
                         ],
-                        "endpoint":"162.159.193.10:2408"
+                        "endpoint":"engage.cloudflareclient.com:2408"
                     }
                 ],
-                "reserved":[78, 135, 76],
+                "reserved":"pvmY",
                 "mtu":1280
             }
         }
@@ -220,6 +220,7 @@ generate_config() {
             {
                 "type":"field",
                 "domain":[
+                    ""
                 ],
                 "outboundTag":"WARP"
             }
